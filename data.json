@@ -1,0 +1,109 @@
+{
+  "000001": {
+    "brand": "brand1",
+    "model": "model1",
+    "expense": 25,
+    "registry_num": "000001",
+    "cost_hour": 3,
+    "cost_day": 24,
+    "cost_week": 120
+  },
+   "000002": {
+    "brand": "brand1",
+    "model": "model2",
+    "expense": 10,
+    "registry_num": "000002",
+    "cost_hour": 6,
+    "cost_day": 48,
+    "cost_week": 240
+  },
+  "000003": {
+    "brand": "brand2",
+    "model": "model1",
+    "expense": 15,
+    "registry_num": "000003",
+    "cost_hour": 4,
+    "cost_day": 36,
+    "cost_week": 180
+  },
+  "000004": {
+    "brand": "brand2",
+    "model": "model2",
+    "expense":5,
+    "registry_num": "000004",
+    "cost_hour": 8,
+    "cost_day": 60,
+    "cost_week": 280
+  },"000005": {
+    "brand": "brand1",
+    "model": "model1",
+    "expense": 25,
+    "registry_num": "000005",
+    "cost_hour": 3,
+    "cost_day": 24,
+    "cost_week": 120
+  },
+   "000006": {
+    "brand": "brand1",
+    "model": "model2",
+    "expense": 10,
+    "registry_num": "000006",
+    "cost_hour": 6,
+    "cost_day": 48,
+    "cost_week": 240
+  },
+  "000007": {
+    "brand": "brand2",
+    "model": "model1",
+    "expense": 15,
+    "registry_num": "000007",
+    "cost_hour": 4,
+    "cost_day": 36,
+    "cost_week": 180
+  },
+  "000008": {
+    "brand": "brand2",
+    "model": "model2",
+    "expense":5,
+    "registry_num": "000008",
+    "cost_hour": 8,
+    "cost_day": 60,
+    "cost_week": 280
+  },
+  "000009": {
+    "brand": "brand1",
+    "model": "model1",
+    "expense": 25,
+    "registry_num": "000009",
+    "cost_hour": 3,
+    "cost_day": 24,
+    "cost_week": 120
+  },
+   "000010": {
+    "brand": "brand1",
+    "model": "model2",
+    "expense": 10,
+    "registry_num": "000010",
+    "cost_hour": 6,
+    "cost_day": 48,
+    "cost_week": 240
+  },
+  "000011": {
+    "brand": "brand2",
+    "model": "model1",
+    "expense": 15,
+    "registry_num": "000011",
+    "cost_hour": 4,
+    "cost_day": 36,
+    "cost_week": 180
+  },
+  "000012": {
+    "brand": "brand2",
+    "model": "model2",
+    "expense": 5,
+    "registry_num": "000012",
+    "cost_hour": 8,
+    "cost_day": 60,
+    "cost_week": 280
+  }
+}
