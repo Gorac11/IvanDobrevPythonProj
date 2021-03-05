@@ -4,12 +4,7 @@ import json
 
 
 class System:
-    """
-    car1 = Car("brand1", "model1", 25, "000001", 3, 24, 120)
-    car2 = Car("brand1", "model2", 10, "000002", 6, 48, 240)
-    car3 = Car("brand2", "model1", 15, "000003", 4, 36, 180)
-    car4 = Car("brand2", "model2", 5, "000004", 8, 60, 280)
-    """
+  
     carToPop = 0
     toPop = False
     cost = 0
@@ -21,14 +16,7 @@ class System:
     carDict = {}
     for (k, v) in data.items():
         dataDict.update({k: v})
-    #carList = {car1.registry_num: car1, car2.registry_num: car2, car3.registry_num: car3, car4.registry_num: car4}
 
-    # for k in carDict:
-    #   print(carDict.values())
-    # def __init__(self):
-    #    self.name="A System"
-    #   self.carList = ["car1","car2","car3"]
-    #newList = {}
     for car in dataDict:
         car = Car(dataDict[car]['brand'], dataDict[car]['model'],
                   dataDict[car]['expense'], dataDict[car]['registry_num'],
@@ -39,38 +27,11 @@ class System:
 
     def print_cars(self):
         print("Checking all cars in stock:")
-        """"
-        for car in self.carList.values():
-            print(car.__dict__)
-        #print(System.data)
-        for ca in self.carDict.values():
-            print(ca.)
-        for (k, v) in System.carDict.items():
-            print("Registry Num: " + k)
-            print("Car Data: " + str(v))
-        """
-        # for i in range(len(d)):
-        #   d[i]+=10
-        # for item in d:
-        #   print(item)
-        # for course in courses:
-        #     print('\nCourse Name:', course)
-        #     print('Total classes:', courses[course]['classes'])
-
-        """for car in System.carDict:
-            client1 = Client.Client("jo")
-            self.newList.update({car:client1})
-        for car in self.newList.values():
-            print(car.__dict__)
-"""
-
-        # print(System.carDict[car]["model"])
 
         for car in System.carDict.values():
             print("Registry Num: "+car.registry_num+":")
             print(car.__dict__)
-        # for k in self.carDict:
-        #   print(self.k[1])
+       
 
     def rent_car_hours(self, client, car_registry, hours):
         self.toPop = False
