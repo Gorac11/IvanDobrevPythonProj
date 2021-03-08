@@ -87,10 +87,10 @@ class System:
 
     def check_out(self, client):
         print("Cars being rented: " + str(client.carsToBuy), end=", ")
-        if client.carsToBuy >= 3:
+        if client.carsToBuy >= 4:
             client.cost = client.cost * 0.7
             client.cost = Decimal(client.cost).quantize(Decimal('.01'), rounding=ROUND_UP)
-            print(client.name + ", A 30% discount will be added for renting 3 or more cars!")
+            print(client.name + ", A 30% discount will be added for renting more than 3 cars!")
 
         print(client.name + ": You have checked out. Money spent: " + str(client.cost) + "$\n")
         client.carsToBuy = 0
